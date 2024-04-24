@@ -122,8 +122,8 @@ export default function Index({ publication, initialAllPosts, initialPageInfo }:
 				</Head>
 				<Header />
 				<Container className="flex flex-col items-stretch gap-10 px-5 pb-10">
+						<h4 className='py-5 px-10 mt-5 bg-green-200 text-[#1E293B] font-bold rounded-full border'>This is a custom message from code.</h4>
 					<Navbar />
-
 					{allPosts.length === 0 && (
 						<div className="grid grid-cols-1 py-20 lg:grid-cols-3">
 							<div className="col-span-1 flex flex-col items-center gap-5 text-center text-slate-700 dark:text-neutral-400 lg:col-start-2">
